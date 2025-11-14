@@ -1,0 +1,14 @@
+header .logo > a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+
+}
+header .logo > a:hover {
+    color: orange;
+}
+
+header .logo {
+    float: left;
+}
