@@ -48,6 +48,13 @@ header ul a:hover {
     width: 300px;
     right: 2rem;
     top: 80px;
+    backdrop-filter: blur(15px);
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.mobile_menu.open {
+    height: 240px;
 }
 
 .mobile_menu li {
