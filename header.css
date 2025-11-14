@@ -46,6 +46,8 @@ header ul a:hover {
     height: 0px;
     border-radius: 10px;
     width: 300px;
+    right: 2rem;
+    top: 80px;
 }
 
 .mobile_menu li {
