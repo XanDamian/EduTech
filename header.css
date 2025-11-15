@@ -102,6 +102,7 @@ header ul a:hover {
 
     .mobile_menu a {
         padding: 12px 150px;
+        border-radius: 10px;
     }
     
 }
