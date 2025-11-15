@@ -38,3 +38,61 @@ header ul a:hover {
    color: orange;
    font-size: 1.05rem;
 }
+
+.mobile_menu {
+    position: absolute;
+    background: linear-gradient(135deg, #2a3d4a, #111a20);
+    display: none;
+    height: 0px;
+    border-radius: 10px;
+    width: 300px;
+    right: 2rem;
+    top: 80px;
+    backdrop-filter: blur(15px);
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.mobile_menu.open {
+    height: 240px;
+}
+
+.mobile_menu li {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0.7rem;
+}
+
+.mobile_menu a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+.mobile_menu a:hover {
+    color: orange;
+    font-size: 1.05rem;
+}
+
+@media (max-width: 992px) {
+    .desktop_menu {
+        display: none;
+    }
+    .toogle_btn {
+        display: block;
+        cursor: pointer;
+    }
+    .mobile_menu {
+        display: block;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .mobile_menu {
+        width: unset;
+        left: 2rem;
+    }
+    
+}
