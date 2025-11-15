@@ -91,10 +91,26 @@ header ul a:hover {
     .mobile_menu {
         display: block;
     }
+    .mobile_menu a {
+        padding: 12px 150px;
+        border-radius: 10px;
+    }
 
 }
 
 @media (max-width: 576px) {
+    .mobile_menu {
+        width: unset;
+        left: 2rem;
+    }
+
+    .mobile_menu a {
+        padding: 12px 150px;
+        border-radius: 10px;
+    }
+}
+
+    @media (max-width: 480px) {
     .mobile_menu {
         width: unset;
         left: 2rem;
