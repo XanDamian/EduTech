@@ -54,7 +54,7 @@ header ul a:hover {
 }
 
 .mobile_menu.open {
-    height: 240px;
+    height: 280px;
 }
 
 .mobile_menu li {
@@ -68,11 +68,16 @@ header ul a:hover {
     font-size: 1rem;
     text-decoration: none;
     color: white;
+    display: block;
+    padding: 12px 100px;
 }
 
 .mobile_menu a:hover {
-    color: orange;
+    color: #ffffff;
+    text-shadow: 0 0 20px rgba (255, 255, 255, 1.5);
     font-size: 1.05rem;
+    background: linear-gradient(135deg, #5e829a, #456e89);
+    border-radius: 10px;
 }
 
 @media (max-width: 992px) {
@@ -93,6 +98,10 @@ header ul a:hover {
     .mobile_menu {
         width: unset;
         left: 2rem;
+    }
+
+    .mobile_menu a {
+        padding: 12px 150px;
     }
     
 }
