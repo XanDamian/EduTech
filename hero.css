@@ -63,3 +63,9 @@
     transition: 0.3s ease;
     cursor: pointer;
 }
+
+.btn:hover {
+  background: #cc7a00;
+   color: #ffffff;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
