@@ -35,5 +35,9 @@
     background-image: url('https://plus.unsplash.com/premium_photo-1663126901191-5285f19a4782?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8a2lkcyUyMGF0JTIwc2Nob29sfGVufDB8fDB8fHww');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center
+    background-position: center;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
 }
