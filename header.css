@@ -80,6 +80,11 @@ header ul a:hover {
     background: linear-gradient(135deg, #5e829a, #456e89);
     border-radius: 10px;
 }
+.toogle_btn {
+    display: none;
+    font-size: 1.5rem;
+    color: white;
+}
 
 @media (max-width: 992px) {
     .desktop_menu {
