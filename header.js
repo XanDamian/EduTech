@@ -10,5 +10,16 @@ toggle_btn.onclick = function() {
     const isOpen = mobile_menu.classList.contains('open');
     toggle_btn_icon.className = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars';
 }
-
+let index = 0;
+const slides = document.querySelectorAll('.slides');
+function showSlide() {
+    slides.forEach((slide) => {
+        slide.classList.remove('active');
+    });
+    index = (index + 1) % slides.length;
+    slides[index].classList.add('active');
+}
+setInterval(showSlide, 9000);
 });
+
+
