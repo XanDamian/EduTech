@@ -1,3 +1,4 @@
+
 * {
 
     margin: 0;
@@ -13,11 +14,14 @@ body{
 header {
 
     background: linear-gradient(135deg, #2a3d4a, #111a20); /* contrast color */;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
     color: white;
     text-align: right;
     padding: 1.5rem;
     z-index: 50;
+    width: 100%;
 
 }
 
@@ -47,14 +51,14 @@ header ul a:hover {
     border-radius: 10px;
     width: 300px;
     right: 2rem;
-    top: 80px;
+    top: 90px;
     backdrop-filter: blur(15px);
     overflow: hidden;
     transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .mobile_menu.open {
-    height: 240px;
+    height: 280px;
 }
 
 .mobile_menu li {
@@ -68,11 +72,22 @@ header ul a:hover {
     font-size: 1rem;
     text-decoration: none;
     color: white;
+    display: block;
+    border-radius: 10px;
+    padding: 12px 100px;
 }
 
 .mobile_menu a:hover {
-    color: orange;
+    color: #ffffff;
+    text-shadow: 0 0 20px rgba (255, 255, 255, 1.5);
     font-size: 1.05rem;
+    background: linear-gradient(135deg, #5e829a, #456e89);
+    border-radius: 10px;
+}
+.toogle_btn {
+    display: none;
+    font-size: 1.5rem;
+    color: white;
 }
 
 @media (max-width: 992px) {
@@ -81,10 +96,14 @@ header ul a:hover {
     }
     .toogle_btn {
         display: block;
-        cursor: pointer;
+        cursor: url('pointer');
     }
     .mobile_menu {
         display: block;
+    }
+    .mobile_menu a {
+        padding: 12px 150px;
+        border-radius: 10px;
     }
 
 }
@@ -93,6 +112,23 @@ header ul a:hover {
     .mobile_menu {
         width: unset;
         left: 2rem;
+    }
+
+    .mobile_menu a {
+        padding: 12px 150px;
+        border-radius: 10px;
+    }
+}
+
+    @media (max-width: 480px) {
+    .mobile_menu {
+        width: unset;
+        left: 2rem;
+    }
+
+    .mobile_menu a {
+        padding: 12px 150px;
+        border-radius: 10px;
     }
     
 }
