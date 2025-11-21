@@ -1,0 +1,66 @@
+.services {
+    padding: 40px 20px 60px 20px;
+    background: url('https://img.freepik.com/free-photo/grunge-black-concrete-textured-background_53876-124541.jpg?semt=ais_hybrid&w=740&q=80');
+    
+}
+
+.services h2 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.service-box-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.service-box {
+    background: url('black background.webp');
+    padding: 25px;
+    width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    padding-bottom: 20px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.service-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+.service-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    cursor: grabbing;
+}
+
+.service-link .service-box h3 {
+    font-size: 1.5rem;
+    color: orange;
+    text-align: center;
+}
+
+.service-link .service-box p {
+    color: white;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.service-box i {
+    font-size: 5rem;
+    margin-bottom: 15px;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
