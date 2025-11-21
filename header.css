@@ -95,7 +95,7 @@ header ul a:hover {
     }
     .toogle_btn {
         display: block;
-        cursor: pointer;
+        cursor: url('pointer');
     }
     .mobile_menu {
         display: block;
