@@ -31,6 +31,7 @@
     height: 350px;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .service-box:hover {
