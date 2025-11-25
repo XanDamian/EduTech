@@ -1,7 +1,7 @@
 .services {
     padding: 70px 20px;
     background: url('https://img.freepik.com/free-photo/grunge-black-concrete-textured-background_53876-124541.jpg?semt=ais_hybrid&w=740&q=80');
-    
+    overflow: hidden;
 }
 
 .services h2 {
@@ -31,6 +31,7 @@
     height: 350px;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .service-box:hover {
