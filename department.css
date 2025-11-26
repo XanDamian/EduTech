@@ -1,0 +1,75 @@
+.department-register {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+  padding-top: 175px;
+  background: #f8f9fa;
+  align-items: center;
+}
+
+.dept-form {
+  width: 90%;
+  max-width: 500px;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+.form-row label {
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.form-row input,
+.form-row select,
+.form-row textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+textarea {
+  height: 100px;
+    resize: none;
+    width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  outline: none;
+}
+
+.register-btn {
+  box-shadow: 0px 8px 22px rgba(0, 0, 0, 0.12);
+  align-items: center;
+  text-align: center;
+  width: 470px;
+  background-color: #4A90E2;   /* main color */
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.register-btn:hover {
+  background-color: #1F6FCC;  /* darker shade */
+  transform: translateY(-3px); /* slight lift */
+}
