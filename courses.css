@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f9fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:  100vh;
+}
+
+.container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    width: 600px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+select, input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+
+button {
+    box-shadow: 0px 8px 22px rgba(0, 0, 0, 0.12);
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    margin-left: 70px;
+    background-color: #4A90E2;   /* main color */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #1F6FCC;  /* darker shade */
+    transform: translateY(-3px); /* slight lift */
+}
+
+.select-icon {
+  position: relative;
+  width: 100%;
+}
+
+.select-icon i {
+  position: absolute;
+  left: 10px;
+  top: 35%;
+  transform: translateY(-50%);
+  color: #555;
+  pointer-events: none;
+}
+
+.select-icon select {
+  width: 100%;
+  padding: 10px 10px 10px 35px; /* space for icon */
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
