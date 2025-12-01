@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="logo.css" />
     <link rel="stylesheet" href="footer.css" />
     <link rel="stylesheet" href="hero.css" />
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="contact.css" />
 
     <link
       rel="stylesheet"
@@ -20,6 +20,7 @@
     />
   </head>
   <body>
+    <div id="header"></div>
     <section class="slider" id="home">
       <div class="slides active slide-text">
         <div class="content">
@@ -86,50 +87,58 @@
     </section>
 
     <section class="contact" id="contact">
-      <br><br><div class="contact_container">
+      <br /><br />
+      <div class="contact_container">
         <form class="contact_info">
+          <div class="row">
+            <div class="input-group1">
+              <label>Fullname</label>
+              <input
+                type="text"
+                name="fullname"
+                placeholder="Fullname"
+                required
+              />
+            </div>
+          </div>
 
-  <div class="row">
-    <div class="input-group1">
-      <label>Fullname</label>
-      <input type="text" name="fullname" placeholder="Fullname" required>
-    </div>
+          <div class="row">
+            <div class="input-group1">
+              <label>Phone No.</label>
+              <input
+                type="tel"
+                name="phone"
+                placeholder="Phone No."
+                required
+                pattern="[0-9]{11}"
+              />
+            </div>
+          </div>
 
-    
-  </div>
+          <div class="row">
+            <div class="input-group1">
+              <label>Email</label>
+              <input type="email" name="email" placeholder="Email" required />
+            </div>
+          </div>
 
-  <div class="row">
-    <div class="input-group1">
-      <label>Phone No.</label>
-      <input type="tel" name="phone" placeholder="Phone No." required pattern="[0-9]{11}">
-    </div>
-    </div>
+          <div class="row">
+            <div class="input-group1">
+              <label>Message</label>
+              <textarea
+                name="message"
+                placeholder="Leave a message..."
+                required
+              ></textarea>
+            </div>
+          </div>
 
-    <div class="row">
-    <div class="input-group1">
-      <label>Email</label>
-      <input type="email" name="email" placeholder="Email" required>
-    </div>
-
-  </div>
-
-
-  <div class="row">
-    <div class="input-group1">
-      <label>Message</label>
-      <textarea name="message" placeholder="Leave a message..." required></textarea>
-    </div>
-
-    
-  </div>
-
-  <div class="row">
-    <div class="input-group1">
-  <button type="submit" class="btn">Send</button>
-  </div>
-  </div>
-
-</form>
+          <div class="row">
+            <div class="input-group1">
+              <button type="submit" class="btn">Send</button>
+            </div>
+          </div>
+        </form>
       </div>
     </section>
 
