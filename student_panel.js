@@ -5,5 +5,5 @@ const mobile_menu = document.querySelector('.mobile_menu');
 toggle_btn.onclick = function() {
     mobile_menu.classList.toggle('open');
     const isOpen = mobile_menu.classList.contains('open');
-    toggle_btn_icon.className = isOpen ? 'fa-solid fa-xmark' : 'fas fa-ellipsis-h';
+    toggle_btn_icon.className = isOpen ? 'fa-solid fa-xmark' : 'fas fa-ellipsis-v';
 }
