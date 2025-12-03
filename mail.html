@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="mail.css" />
+    <title>Mail settings</title>   
+</head>
+<body>
+    <header>
+  <div class="logo">
+    <a href="index.html">EduTech</a>
+  </div>
+  <nav>
+    <ul class="desktop_menu">
+      <li><a href="index.html">Home</a></li>
+      
+    </ul>
+  </nav>
+  
+</header>
+    <main>
+    <h1>Mail Settings</h1>
+    <form action="" method="post">
+        <div>
+            <label for="email">Sender email:</label>
+            <input id="email" name="email" type="email" required />
+        </div>
+
+        <div>
+            <label for="mail server address">Mail Server Address:</label>
+            <input id="mail-server-address" name="mail-server-address" type="text" required />
+        </div>
+
+
+        <div>
+            <label for="username">Mail username:</label>
+            <textarea id="username" name="username" type="text" required></textarea>
+        </div>
+
+        <div>
+            <label for="port"> Port number:</label>
+            <input id="port" name="port" type="number" required />
+        </div>
+
+        <div>
+            <label for ="TLS">TLS:<input id="TLS" name="TLS" type="checkbox" /></label>
+             
+               
+            <label for="SSL">SSL:<input id="SSL" name="SSL" type="checkbox" />   
+          </label>
+        
+        </div>
+
+       
+        <div>
+            <label for="password"> Password:</label>
+            <input id="password" name="password" type="password" required />
+        </div>
+
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+    </main>
+</body>
+</html>
